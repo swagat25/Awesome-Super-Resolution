@@ -18,6 +18,8 @@ Collect some super-resolution related papers, data and repositories.
 
 [Awesome Super-Resolution](https://github.com/ptkin/Awesome-Super-Resolution)
 
+
+
 #### Awesome repos:
 
 |                             repo                             | Framework  |
@@ -34,6 +36,7 @@ Collect some super-resolution related papers, data and repositories.
 | [super-resolution](https://github.com/icpm/super-resolution) |  PyTorch   |
 | [VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution) | Tensorflow |
 | [video-super-resolution](https://github.com/thangvubk/video-super-resolution) |  Pytorch   |
+|[MMSR](https://github.com/open-mmlab/mmsr) | PyTorch |
 
 
 
@@ -53,7 +56,8 @@ Note this table is referenced from [here](https://github.com/LoSealL/VideoSuperR
 |    BSD500    | Train/Val  | [download](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz) |                                                        |
 |   91-Image   |   Train    | [download](http://www.ifp.illinois.edu/~jyang29/codes/ScSR.rar) |                          Yang                          |
 |  DIV2K2017   | Train/Val  |     [website](https://data.vision.ee.ethz.ch/cvl/DIV2K/)     |                       NTIRE2017                        |
-|   Real SR    | Train/Val  | [website](https://competitions.codalab.org/competitions/21439#participate) |                       NTIRE2019                        |
+|  Flickr2K   |   Train  |     [download](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)     |     |
+|   Real SR    | Train/Val  | [website](https://competitions.codalab.org/competitions/21439#participate) |    NTIRE2019                        |
 |   Waterloo   |   Train    |   [website](https://ece.uwaterloo.ca/~k29ma/exploration/)    |                                                        |
 |     VID4     |    Test    | [download](https://people.csail.mit.edu/celiu/CVPR2011/videoSR.zip) |                        4 videos                        |
 |    MCL-V     |   Train    |        [website](http://mcl.usc.edu/mcl-v-database/)         |                       12 videos                        |
@@ -177,12 +181,21 @@ Note this table is referenced from [here](https://github.com/LoSealL/VideoSuperR
 |CNN&TV-TV Minimization  | [BMVC2019](https://arxiv.org/pdf/1907.05380.pdf) |  | TV-TV Minimization  |
 |HRAN  | [arXiv](https://arxiv.org/pdf/1907.05514.pdf) |  | Hybrid Residual Attention Network  |
 |PPON         | [arXiv](https://arxiv.org/pdf/1907.10399.pdf) | [code](https://github.com/Zheng222/PPON) | Progressive Perception-Oriented Network   |
-
+|SROBB         | [ICCV19](https://arxiv.org/pdf/1908.07222.pdf) |  | Targeted Perceptual Loss   |
+|RankSRGAN         | [ICCV19](https://arxiv.org/pdf/1908.06382.pdf) | [PyTorch](https://github.com/WenlongZhang0724/RankSRGAN) | oral, rank-content loss   |
+|edge-informed         | [ICCV19](https://arxiv.org/pdf/1909.05305.pdf) | [PyTorch](https://github.com/knazeri/edge-informed-sisr) | Edge-Informed Single Image Super-Resolution   |
+|s-LWSR        | [arxiv](https://arxiv.org/pdf/1909.10774.pdf) |  | Lightweight   |
+|DNLN        | [arxiv](https://arxiv.org/pdf/1909.10692.pdf) |  | **Video SR** Deformable Non-local Network   |
+|MGAN        | [arxiv](https://arxiv.org/pdf/1909.11937.pdf) | | Multi-grained Attention Networks   |
+|IMDN        | [ACM MM 2019](https://arxiv.org/pdf/1909.11856.pdf) | [PyTorch](https://github.com/Zheng222/IMDN) | AIM19  Champion  |
+|ESRN        | [arxiv](https://arxiv.org/pdf/1909.11409.pdf) |  | NAS  |
 
 ### NTIRE:
 NTIRE17 [papers](http://openaccess.thecvf.com/CVPR2017_workshops/CVPR2017_W12.py)
 
-NTIRE18 [papers](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W13.py)
+NTIRE18[papers](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W13.py)
+
+PIRM18 [Web](https://pirm2018.org/)
 
 NTIRE19 [papers](http://openaccess.thecvf.com/CVPR2019_workshops/CVPR2019_NTIRE.py)
 
